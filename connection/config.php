@@ -11,7 +11,7 @@
   {
     //   $con = mysqli_connect('sql7.freemysqlhosting.net', 'sql7349909', '23WgS9BkN3', 'sql7349909');// Online Database
     //  $con = mysqli_connect('161.35.103.171', 'root', 'VIRAKseam33@gic', 'awesome_shop'); //Localhost Database
-	  $con = mysqli_connect('localhost', 'root', '', 'awesome_shop'); //Localhost Database
+	  $con = mysqli_connect('68.183.118.104', 'virak', 'VIRAKseam33@gic', 'awesome_shop'); //Localhost Database
       
       $result = mysqli_query($con, $sql);
       mysqli_close($con);
