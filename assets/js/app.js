@@ -110,17 +110,17 @@
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var NProgress = __webpack_require__(2);
-	document.addEventListener('DOMContentLoaded', function() {
-	    NProgress.start();
-	});
-	window.addEventListener('load', function() {
-	    var body = document.body;
-	    var loader = document.getElementById('loader');
-	    body.classList.add('loaded');
-	    loader.classList.add('loader-fade');
-	    NProgress.done();
-	}, true);
+	// var NProgress = __webpack_require__(2);
+	// document.addEventListener('DOMContentLoaded', function() {
+	//     NProgress.start();
+	// });
+	// window.addEventListener('load', function() {
+	//     var body = document.body;
+	//     var loader = document.getElementById('loader');
+	//     body.classList.add('loaded');
+	//     loader.classList.add('loader-fade');
+	//     NProgress.done();
+	// }, true);
 
 /***/ }),
 /* 2 */
